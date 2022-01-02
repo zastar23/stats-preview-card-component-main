@@ -5,29 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; color: white; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <div class="main">
+      <div class="img__div">
+          <img class="main__img"src="images/image-header-mobile.jpg" alt="">
+      </div>
+      <div class="hero">
+          <h1 class="title">Get <span class="purple">insights</span> that help your business grow.</h1>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
+          <p class="main__txt">Discover the benefits of data<br> analytics and make better decisions<br> regarding revenue, customer<br>
+      experience, and overall efficiency.</p>
+      <div class="flex">
+        <div class="col">
+          <p class="companies"> 10k+ </p> 
+            <span class="text__color">companies</span>
+          </div>
+        <div class="col">
+          <p class="templates">
+              314 
+          </p>
+          <span class="text__color">templates</span>
+        </div>
+        <div class="col">
+          <p class="queries">
+              12m+
+          </p>
+          <span class="text__color">queries</span>
+        </div>
+      </div>
+      </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Florin Porut</a>.
   </div>
 </body>
 </html>
