@@ -114,6 +114,7 @@ body {
 
     .title {
         text-align: left;
+        margin-left: 0.5em;
     }
 
     .main__img {
@@ -122,6 +123,12 @@ body {
 
     .img__div {
         border-bottom-right-radius: 20px;
+    }
+
+    .companies,
+    .templates,
+    .queries {
+        text-align: left;
     }
 
 }
