@@ -100,7 +100,7 @@ body {
     .flex {
         display: flex;
         justify-content: space-around;
-        margin: 2em 2em  0 -1em;
+        margin: 3em 1em 0 -1em;
     }
 
     .hero {
@@ -109,14 +109,19 @@ body {
 
     .main__txt {
         text-align: left;
-        margin: 1em 0 1em 1em;
+        margin: 1em 1em 0 1em;
     }
 
     .title {
         text-align: left;
     }
 
+    .main__img {
+        border-top-left-radius: 0;
+    }
+
+    .img__div {
+        border-bottom-right-radius: 20px;
+    }
+
 }
-
-
-
